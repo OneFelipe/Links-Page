@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom,  #3056A0,#160070 );
+}
+
+main {
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    font-family: "Capriola", sans-serif;
+    color: beige;
+}
+
+.descricao {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.perfil {
+    font-size: 20px;
+}
+
+.perfil h1 {
+    margin: 10px;
+}
+
+.perfil p {
+    font-size: 16px;
+}
+
+.social ul {
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.social li {
+    padding: 8px;
+}
+
+.social li img {
+    filter: invert(100%);
+    width: 30px;
+}
+
+.social li img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    color: rgb(45, 45, 45);
+    background-color: white;
+    margin: 15px;
+    border: solid rgb(45, 45, 45) 3px;
+    box-shadow: 10px 7px rgb(45, 45, 45);
+    border-radius: 12px;
+    padding: 5px 10px;
+    justify-content: center;
+}
+
+.link h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.link:hover {
+    box-shadow:2px 2px 0px 0px rgb(0, 0, 0);
+    transform: translate(+4px, +4px);
+}
+    
+.link img {
+    filter: invert(10%);
+    width: 32px;
+}
+
